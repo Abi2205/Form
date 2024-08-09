@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-logo"></div>
+    <div class="container">
+      <h1 class="form-header">Bliend's NextGen Professional Profile</h1>
+      
+      <!-- Form starts here -->
+      <form id="form" class="container m-4 pl-4" method="POST">
+        <div class="form-section">
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="Name" />
+          </div>
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="Date" required="" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="contact">Contact No</label>
+            <input type="number" id="contact" name="Contact No" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required="" />
+          </div>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="Date of Birth" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" name="Gender" required="">
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="marital-status">Marital Status</label>
+            <select id="marital-status" name="Marital status">
+              <option value="">Select</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="divorced">Divorced</option>
+              <option value="widowed">Widowed</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="district">District</label>
+            <select id="district" name="District">
+                <option value="">Select District</option>
+                <option value="ariyalur">Ariyalur</option>
+                <option value="chengalpattu">Chengalpattu</option>
+                <option value="chennai">Chennai</option>
+                <option value="coimbatore">Coimbatore</option>
+                <option value="cuddalore">Cuddalore</option>
+                <option value="dharmapuri">Dharmapuri</option>
+                <option value="dindigul">Dindigul</option>
+                <option value="erode">Erode</option>
+                <option value="kallakurichi">Kallakurichi</option>
+                <option value="kancheepuram">Kancheepuram</option>
+                <option value="karur">Karur</option>
+                <option value="krishnagiri">Krishnagiri</option>
+                <option value="madurai">Madurai</option>
+                <option value="nagapattinam">Nagapattinam</option>
+                <option value="namakkal">Namakkal</option>
+                <option value="nilgiris">Nilgiris</option>
+                <option value="perambalur">Perambalur</option>
+                <option value="pudukottai">Pudukottai</option>
+                <option value="ramanathapuram">Ramanathapuram</option>
+                <option value="ranipet">Ranipet</option>
+                <option value="salem">Salem</option>
+                <option value="sivaganga">Sivaganga</option>
+                <option value="tenkasi">Tenkasi</option>
+                <option value="thanjavur">Thanjavur</option>
+                <option value="theni">Theni</option>
+                <option value="thiruvallur">Thiruvallur</option>
+                <option value="thiruvannamalai">Thiruvannamalai</option>
+                <option value="thiruvarur">Thiruvarur</option>
+                <option value="thoothukudi">Thoothukudi</option>
+                <option value="tiruchirappalli">Tiruchirappalli</option>
+                <option value="tirunelveli">Tirunelveli</option>
+                <option value="tirupattur">Tirupattur</option>
+                <option value="tiruppur">Tiruppur</option>
+                <option value="tiruvallur">Tiruvallur</option>
+                <option value="vellore">Vellore</option>
+                <option value="viluppuram">Viluppuram</option>
+                <option value="virudhunagar">Virudhunagar</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="state2">State</label>
+            <select id="state" name="State">
+                <option value="">Select State</option>
+                <option value="andhra-pradesh">Andhra Pradesh</option>
+                <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                <option value="assam">Assam</option>
+                <option value="bihar">Bihar</option>
+                <option value="chhattisgarh">Chhattisgarh</option>
+                <option value="goa">Goa</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="haryana">Haryana</option>
+                <option value="himachal-pradesh">Himachal Pradesh</option>
+                <option value="jharkhand">Jharkhand</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="kerala">Kerala</option>
+                <option value="madhya-pradesh">Madhya Pradesh</option>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="manipur">Manipur</option>
+                <option value="meghalaya">Meghalaya</option>
+                <option value="mizoram">Mizoram</option>
+                <option value="nagaland">Nagaland</option>
+                <option value="odisha">Odisha</option>
+                <option value="punjab">Punjab</option>
+                <option value="rajasthan">Rajasthan</option>
+                <option value="sikkim">Sikkim</option>
+                <option value="tamil-nadu">Tamil Nadu</option>
+                <option value="telangana">Telangana</option>
+                <option value="tripura">Tripura</option>
+                <option value="uttar-pradesh">Uttar Pradesh</option>
+                <option value="uttarakhand">Uttarakhand</option>
+                <option value="west-bengal">West Bengal</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="nationality">Nationality</label>
+            <select id="nationality" name="Nationality">
+              <option value="">Select</option>
+              <option value="indian">Indian</option>
+              <option value="other">Others</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" name="Pincode" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="current-org">Current Organisation</label>
+            <input type="text" id="current-org" name="Current Organisation" required="" />
+          </div>
+          <div class="form-group">
+            <label for="current-desig">Current Designation</label>
+            <input type="text" id="current-desig" name="Current DEsignation" required="" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="employee-type">Employee Type</label>
+            <select id="employee-type" name="Employee type">
+              <option value="">Select</option>
+              <option value="full-time">Full-Time</option>
+              <option value="part-time">Part-Time</option>
+              <option value="contract">Temporary</option>
+              <option value="intern">Intern</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="open-positions">Open Positions</label>
+            <select id="open-positions" name="Open positions" required="">
+                <option value="">Select</option>
+                <option value="Administration/Human Resources ">Administration/Human Resources </option>
+                <option value="Cheif Accountant">Cheif Accountant </option>
+                <option value="Marketing Strategist/Marketing Excecutive">Marketing Strategist/Marketing Excecutive</option>
+                <option value="Python/JS Developers ">Python/JS Developers </option>
+                <option value="Graphic Designer/Editor">Graphic Designer/Editor </option>
+                <option value="Digital Marketing">Digital Marketing </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="experience">Experience</label>
+            <input type="text" id="experience" name="Experience" required="" />
+          </div>
+          <div class="form-group">
+            <label for="education">Education</label>
+            <input type="text" id="education" name="Education" placeholder="Please mention UG degree alone" required="" />
+          </div>
+          <div class="form-group">
+            <label for="ug-percentage">UG Percentage</label>
+            <input type="text" id="ug-percentage" name="UG Percentage" required="" />
+          </div>
+          <div class="form-group">
+            <label for="expected-salary">Expected Salary</label>
+            <input type="text" id="expected-salary" name="Expected salary" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-group">
+            <label for="smoke">Do you smoke?</label>
+            <select id="smoke" name="Did you smoke">
+              <option value="">Select</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="alcohol">Do you consume alcohol?</label>
+            <select id="alcohol" name="Did you consume alcohol">
+              <option value="">Select</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="marketing-interest">Are you interested in marketing?</label>
+            <select id="marketing-interest" name="Interested in marketing">
+              <option value="">Select</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-sectionss">
+          <div class="form-group">
+            <label for="why-company">Why did you choose our company?</label>
+            <textarea id="why-company" name="Choose our company" rows="4"></textarea>
+          </div>
+        </div>
+
+        <div class="form-section2">
+          <div class="form-group">
+            <label for="resume">Resume</label>
+            <input type="file" id="resume" name="Resume" required="" />
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="centered-submit">
+            <button class="button is-primary" type="submit" id="submit-button">
+              Submit
+            </button>
+          </div>
+          
+        </div>
+
+        <div
+          id="message"
+          style="
+            display: none;
+            margin: 20px;
+            font-weight: bold;
+            color: green;
+            padding: 8px;
+            background-color: beige;
+            border-radius: 4px;
+            border-color: aquamarine;
+          "
+        ></div>
+
+      </form>
+     
+
+      <script>
+        
+        document.getElementById("form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        document.getElementById("message").textContent = "Submitting..";
+        document.getElementById("message").style.display = "block";
+        document.getElementById("submit-button").disabled = true;
+
+        // Collect the form data
+        var formData = new FormData(this);
+        var keyValuePairs = [];
+        for (var pair of formData.entries()) {
+          keyValuePairs.push(pair[0] + "=" + pair[1]);
+        }
+
+        var formDataString = keyValuePairs.join("&");
+
+        // Send a POST request to your Google Apps Script
+        fetch(
+          "https://script.google.com/macros/s/AKfycbyBs_Jl6WfyrufCHBBV-oY7uVHMBSoLJvA5lH-Wi9cJmugcNoHB097vNuZtS5rzun3E/exec",
+          {
+            redirect: "follow",
+            method: "POST",
+            body: formDataString,
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          }
+        )
+          .then(function (response) {
+            // Check if the request was successful
+            if (response) {
+              return response; // Assuming your script returns JSON response
+            } else {
+              throw new Error("Failed to submit the form.");
+            }
+          })
+          .then(function (data) {
+            // Display a success message
+            document.getElementById("message").textContent =
+              "Data submitted successfully!";
+            document.getElementById("message").style.display = "block";
+            document.getElementById("message").style.backgroundColor = "green";
+            document.getElementById("message").style.color = "beige";
+            document.getElementById("submit-button").disabled = false;
+            document.getElementById("form").reset();
+
+            setTimeout(function () {
+              document.getElementById("message").textContent = "";
+              document.getElementById("message").style.display = "none";
+            }, 2600);
+          })
+          .catch(function (error) {
+            // Handle errors, you can display an error message here
+            console.error(error);
+            document.getElementById("message").textContent =
+              "An error occurred while submitting the form.";
+            document.getElementById("message").style.display = "block";
+          });
+      });
+    </script>
+   
+      
+    </div>
+  </body>
+</html>
